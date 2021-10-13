@@ -1,2 +1,15 @@
 Palette de couleurs
 
+h{
+    color : #C23028;
+}
+
+
+
+header #BF433C (couleur )
+
+color : #C23028
+
+
+bleu 
+jaune rouge
