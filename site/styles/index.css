@@ -1,6 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
+    font-size: 0.8em;
 }
 header{
     background-color: teal;
@@ -20,22 +21,41 @@ header{
     flex-direction: column;
 }
 nav{
-    margin-left: 10px;
-    background-color: purple;
+    margin-left: 10px;olo: black;
+    border-radius: 5%;
 }
-.box:nth-child(2n-1){
+.globarticle:nth-child(2n-1){
     display: flex;
     flex-direction: row;
     background-color: red;
+    border-radius: 5%;
 }
-.box:nth-child(2n){
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: red;
-}
+
 img{
     background-color: turquoise;
+    border-radius: 5%;
+    max-width: 100%;
+    width: 15em;
+    height: 10em;
 }
 footer{
     background-color: yellow;
+}
+.titreP{
+    display: flex;
+    font-size: 1.6em;
+    color: aqua;
+    justify-content: center;
+}
+.corpP{
+    text-align: justify;
+    border: solid;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color:indianred;
+}
+a{
+    color:black
 }
