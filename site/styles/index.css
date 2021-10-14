@@ -21,16 +21,22 @@ header{
     flex-direction: column;
 }
 nav{
-    margin-left: 10px;olo: black;
+    margin-left: 10px;
+    color: black;
     border-radius: 5%;
 }
-.globarticle:nth-child(2n-1){
+.box:nth-child(2n) .globarticle{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     background-color: red;
     border-radius: 5%;
 }
-
+.box:nth-child(2n-1) .globarticle{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    border-radius: 5%;
+}
 img{
     background-color: turquoise;
     border-radius: 5%;
