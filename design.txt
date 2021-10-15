@@ -1,15 +1,138 @@
-Palette de couleurs
+body{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    background:black;
+    /*font-family:Georgia, 'Times New Roman', Times, serif;*/
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*font-family: fantasy;*/
+}
 
-h{
-    color : #C23028;
+header{
+    /*background: linear-gradient(to bottom,rgb(199, 139, 28),55%,#C23028);*/
+    background: linear-gradient(to bottom,rgb(255, 175, 25),55%,#8871a7);/*-------------------------*/
+    border-bottom: ridge black;
+    padding:5px;/*-------------------------*/
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    /*background-color: white;*/
+   /* background: rgb(76, 19, 16,0.71) ;*/ /*-------------------------*/
+    background: rgba(97, 43, 41, 0.411) ;
 }
 
 
+/*------------------------------------------------*/
+#tout
+{
+    background-image:url(theatre.jpg);
+    background-attachment:fixed;
+    background-position: absolute;
+    background-position: center;
+    /*-webkit-filter: blur(4px);*/
 
-header #BF433C (couleur )
+}
+/*------------------------------------------------*/
 
-color : #C23028
+article
+{
+    border:ridge black;
+}
+
+#contener{
+    display: flex;
+    margin: 0 auto;
+    background: rgba(245, 216, 216, 0.424);
+    margin: 5px;
+;
+    
+    
+    
+}
+#content{
+    display:flex;
+    flex-direction: column;
+;
 
 
-bleu 
-jaune rouge
+}
+nav{
+    margin-left: 10px;
+    color: black;/*--------------*/
+    border-radius: 5% ;
+    background-color: rgb(245, 216, 216,0.5);/*--------------*/
+    margin: 5px;
+    padding-right: 5px;
+}
+.box:nth-child(2n) .globarticle{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: transparent;/*--------------*/
+    border-radius: 5%;
+}
+
+.box:nth-child(2n-1) .globarticle{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;/*--------------*/
+    border-radius: 5%;
+    
+}
+img{
+    background: rgb(255, 175, 25,0.75);/*--------------*/
+    border-radius: 5%;
+    margin: 0.5%;
+    max-width: 100%;
+    width: 15em;
+    height: 10em;
+}
+footer{
+    /*background-color: yellow;*/
+    background: linear-gradient(to top,rgb(255, 175, 25),55%,#8871a7);/*--------------*/
+
+}
+.titreP{
+    display: flex;
+    font-size: 1.6em;
+    color: rgb(255, 175, 25);/*--------------*/
+    justify-content: center;
+    /*--------------*/
+    padding-top: 1%;
+    
+}
+.corpP{
+    text-align: justify;
+    border: solid;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    /*background-color:white;*/   
+    border-top: ridge black; 
+    padding: 1%;
+}
+
+/*---------------------------------*/
+.box:hover{
+    transition: all 0.2s ease-out;
+    background:rgba(255, 174, 25, 0.342) ;
+}
+/*---------------------------------*/
+
+a{
+    color:black;/*--------------*/
+}
+
+/*---------------------------------*/
+a:hover{
+    transition: all 0.2s ease-out;
+    color:rgb(255, 175, 25) ;
+}
+
+a:visited{
+    /*color: purple;*/
+    color:#C23028;
+}
+/*---------------------------------*/
