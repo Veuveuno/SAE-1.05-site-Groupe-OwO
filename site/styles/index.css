@@ -27,7 +27,7 @@ header{
 /*------------------------------------------------*/
 #tout
 {
-    background-image:url(theatre.jpg);
+    background-image:url(../img/theatre.jpg);
     background-attachment:fixed;
     background-position: absolute;
     background-position: center;
@@ -90,7 +90,7 @@ img{
 }
 footer{
     /*background-color: yellow;*/
-    background: linear-gradient(to top,rgb(255, 175, 25),55%,#8871a7);/*--------------*/
+    background: linear-gradient(to top,rgb(255, 175, 25),55%,red);/*--------------*/
 
 }
 .titreP{
@@ -107,6 +107,7 @@ footer{
     border: solid;
 }
 .box {
+    transition:1s;
     display: flex;
     flex-direction: column;
     /*background-color:white;*/   
@@ -132,9 +133,6 @@ a{
         background-color: pink;
     }   
 }
-    color:black;/*--------------*/
-}
-
 /*---------------------------------*/
 a:hover{
     transition: all 0.2s ease-out;
