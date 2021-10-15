@@ -27,7 +27,7 @@ header{
 /*------------------------------------------------*/
 #tout
 {
-    background-image:url(theatre.jpg);
+    background-image:url(../img/theatre.jpg);
     background-attachment:fixed;
     background-position: absolute;
     background-position: center;
@@ -55,7 +55,6 @@ article
     display:flex;
     flex-direction: column;
     margin-top: 4em;
-    padding: 1em;
 ;
 
 
@@ -113,7 +112,7 @@ footer{
     display: flex;
     flex-direction: column;
     background-color:indianred;
-    margin-bottom: 2em;
+    margin-bottom: 12em;
     /*background-color:white;*/   
     border-top: ridge black; 
     padding: 1%;
