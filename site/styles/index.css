@@ -8,7 +8,6 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /*font-family: fantasy;*/
 }
-
 header{
     /*background: linear-gradient(to bottom,rgb(199, 139, 28),55%,#C23028);*/
     background: linear-gradient(to bottom,rgb(255, 175, 25),55%,#8871a7);/*-------------------------*/
@@ -26,9 +25,9 @@ header{
 #tout
 {
     background-image:url(../img/theatre.jpg);
-    background-attachment:fixed;
-    background-position: absolute;
-    background-position: center;
+    background-attachment: fixed;
+    background-position: 0;
+    background-size: cover;
     /*-webkit-filter: blur(4px);*/
 
 }
@@ -38,6 +37,7 @@ header{
 #contener{
     display: flex;
     margin: 0 auto;
+    margin-top: 0.5rem;
     background: rgba(245, 216, 216, 0.424); 
 }
 #content{
@@ -47,13 +47,38 @@ header{
 
 
 }
-nav{
-    margin-left: 10px;
+#menu{
+    padding-left: 0;
+    width: 8rem;
+    margin: 0.5rem;
     color: black;/*--------------*/
-    border-radius: 5% ;
-    background-color: rgb(245, 216, 216,0.5);/*--------------*/
-    margin: 5px;
-    padding-right: 5px;
+    border: ridge black;
+    border-radius: 10%;
+}
+#menu li{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 0.3rem;
+}
+#menu a:nth-child(2n-1) li{
+    transition: 1s;
+    background-color: rgb(248, 212, 212, 0.5);
+}
+#menu a:nth-child(2n) li{
+    transition: 1s;
+    background-color: rgb(255, 228, 196, 0.5);
+}
+#menu a:nth-last-child(1) li{
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+#menu a:nth-child(1) li{
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+#menu a li:hover{
+    transition: 0.5s;
+    background-color: rgb(224, 144, 144, 0.5);
 }
 .box:nth-child(2n) .globarticle{
     display: flex;
@@ -116,25 +141,43 @@ footer{
     background:rgba(255, 174, 25, 0.342) ;
 }
 /*---------------------------------*/
-a{
-    color:black
+a:link{
+    transition: all 0.2s;
+    color:black;
 }
-
+a:visited{
+    transition: all 0.2s;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+nav ul{
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+}
+/*---------------------------------*/
 @media screen and (max-width:750px){
     #main{
         display: flex;
         flex-direction: column;
-        background-color: pink;
+    }
+    #menu{
+        width: auto;
+        border-radius: 1.5rem;
+    }
+    #menu a li{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #menu a:nth-last-child(1) li{
+        border-bottom-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+    #menu a:nth-child(1) li{
+        border-top-left-radius: 5rem;
+        border-top-right-radius: 5rem;
     }   
 }
-/*---------------------------------*/
-a:hover{
-    transition: all 0.2s ease-out;
-    color:rgb(255, 175, 25) ;
-}
-
-a:visited{
-    /*color: purple;*/
-    color:#C23028;
-}
-/*---------------------------------*/
