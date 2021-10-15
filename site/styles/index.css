@@ -1,11 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-<<<<<<< Updated upstream
     font-size: 1.2rem;
-=======
-    font-size: 0.8em;
->>>>>>> Stashed changes
     background:black;
     /*font-family:Georgia, 'Times New Roman', Times, serif;*/
     /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
@@ -26,19 +22,10 @@ header{
    /* background: rgb(76, 19, 16,0.71) ;*/ /*-------------------------*/
     background: rgba(97, 43, 41, 0.411) ;
 }
-<<<<<<< Updated upstream
 /*------------------------------------------------*/
 #tout
 {
     background-image:url(../img/theatre.jpg);
-=======
-
-
-/*------------------------------------------------*/
-#tout
-{
-    background-image:url(theatre.jpg);
->>>>>>> Stashed changes
     background-attachment:fixed;
     background-position: absolute;
     background-position: center;
@@ -47,27 +34,11 @@ header{
 }
 /*------------------------------------------------*/
 
-<<<<<<< Updated upstream
-=======
-article
-{
-    border:ridge black;
-}
->>>>>>> Stashed changes
 
 #contener{
     display: flex;
     margin: 0 auto;
-<<<<<<< Updated upstream
     background: rgba(245, 216, 216, 0.424); 
-=======
-    background: rgba(245, 216, 216, 0.424);
-    margin: 5px;
-;
-    
-    
-    
->>>>>>> Stashed changes
 }
 #content{
     display:flex;
@@ -87,10 +58,7 @@ nav{
 .box:nth-child(2n) .globarticle{
     display: flex;
     flex-direction: row-reverse;
-<<<<<<< Updated upstream
     background-color: red;
-=======
->>>>>>> Stashed changes
     background-color: transparent;/*--------------*/
     border-radius: 5%;
 }
@@ -101,12 +69,9 @@ nav{
     background-color: transparent;/*--------------*/
     border-radius: 5%;
     
-<<<<<<< Updated upstream
 }
 .box .globarticle article{
     flex-grow: 1;
-=======
->>>>>>> Stashed changes
 }
 img{
     background: rgb(255, 175, 25,0.75);/*--------------*/
@@ -123,11 +88,7 @@ footer{
 }
 .titreP{
     display: flex;
-<<<<<<< Updated upstream
     font-size: 2rem;
-=======
-    font-size: 1.6em;
->>>>>>> Stashed changes
     color: rgb(255, 175, 25);/*--------------*/
     justify-content: center;
     /*--------------*/
@@ -141,7 +102,6 @@ footer{
     transition:1s;
     display: flex;
     flex-direction: column;
-<<<<<<< Updated upstream
     background-color:indianred;
     /*background-color:white;*/   
     border: ridge black; 
@@ -167,24 +127,6 @@ a{
         background-color: pink;
     }   
 }
-=======
-    /*background-color:white;*/   
-    border-top: ridge black; 
-    padding: 1%;
-}
-
-/*---------------------------------*/
-.box:hover{
-    transition: all 0.2s ease-out;
-    background:rgba(255, 174, 25, 0.342) ;
-}
-/*---------------------------------*/
-
-a{
-    color:black;/*--------------*/
-}
-
->>>>>>> Stashed changes
 /*---------------------------------*/
 a:hover{
     transition: all 0.2s ease-out;
@@ -196,8 +138,3 @@ a:visited{
     color:#C23028;
 }
 /*---------------------------------*/
-<<<<<<< Updated upstream
-=======
-
-/*<div id="tout"> (après la fin balise header ---- avant fin balise div avant le footer)*/
->>>>>>> Stashed changes
