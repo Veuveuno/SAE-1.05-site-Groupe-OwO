@@ -22,8 +22,6 @@ header{
    /* background: rgb(76, 19, 16,0.71) ;*/ /*-------------------------*/
     background: rgba(97, 43, 41, 0.411) ;
 }
-
-
 /*------------------------------------------------*/
 #tout
 {
@@ -35,7 +33,6 @@ header{
 
 }
 /*------------------------------------------------*/
-
 article
 {
     border:ridge black;
@@ -44,20 +41,11 @@ article
 #contener{
     display: flex;
     margin: 0 auto;
-    background: rgba(245, 216, 216, 0.424);
-    margin: 5px;
-;
-    
-    
-    
+    background: rgba(245, 216, 216, 0.424); 
 }
 #content{
     display:flex;
     flex-direction: column;
-    margin-top: 4em;
-;
-
-
 }
 nav{
     margin-left: 10px;
@@ -74,13 +62,15 @@ nav{
     background-color: transparent;/*--------------*/
     border-radius: 5%;
 }
-
 .box:nth-child(2n-1) .globarticle{
     display: flex;
     flex-direction: row;
     background-color: transparent;/*--------------*/
     border-radius: 5%;
     
+}
+.box .globarticle article{
+    flex-grow: 1;
 }
 img{
     background: rgb(255, 175, 25,0.75);/*--------------*/
@@ -109,6 +99,7 @@ footer{
     border: solid;
 }
 .box {
+    transition:1s;
     display: flex;
     flex-direction: column;
     background-color:indianred;
@@ -117,18 +108,23 @@ footer{
     border-top: ridge black; 
     padding: 1%;
 }
-
 /*---------------------------------*/
 .box:hover{
     transition: all 0.2s ease-out;
     background:rgba(255, 174, 25, 0.342) ;
 }
 /*---------------------------------*/
-
 a{
-    color:black;/*--------------*/
+    color:black
 }
 
+@media screen and (max-width:750px){
+    #main{
+        display: flex;
+        flex-direction: column;
+        background-color: pink;
+    }   
+}
 /*---------------------------------*/
 a:hover{
     transition: all 0.2s ease-out;
