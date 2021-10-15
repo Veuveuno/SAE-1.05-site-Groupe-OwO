@@ -65,3 +65,11 @@ footer{
 a{
     color:black
 }
+
+@media screen and (max-width:750px){
+    #main{
+        display: flex;
+        flex-direction: column;
+        background-color: pink;
+    }   
+}
