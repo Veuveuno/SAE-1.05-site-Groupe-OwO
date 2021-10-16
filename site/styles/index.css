@@ -13,6 +13,13 @@ header{
     background: linear-gradient(to bottom,rgb(255, 175, 25),55%,#8871a7);/*-------------------------*/
     border-bottom: ridge black;
     padding:5px;/*-------------------------*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header img{
+    width: 8rem;
+    height: 5rem;
 }
 #main{
     display: flex;
@@ -188,9 +195,7 @@ th, td {
     border-top: ridge black;
     border-bottom: ridge black;
 }
-img{
-    width: 25rem;
-    height: 20rem;
+
 }
 td:hover{
     transition: all 0.2s ease-out;
@@ -204,7 +209,15 @@ td:hover{
 .sources{
     margin-left: 1rem;
 }
+#main img{
+    width: 25rem;
+    height: 20rem;
+}
+#logoFin{
+    display: flex;
+    justify-content: space-around;
 
+}
 
 /*---------------------------------*/
 @media screen and (max-width:750px){
@@ -237,7 +250,7 @@ td:hover{
     .box{
         margin: 0.5rem;
     }
-    img{
+    #main img{
         display: flex;
         order: 1;
     }
