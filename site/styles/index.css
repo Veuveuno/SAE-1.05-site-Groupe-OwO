@@ -38,7 +38,9 @@ header{
     display: flex;
     margin: 0 auto;
     margin-top: 0.5rem;
-    background: rgba(245, 216, 216, 0.424); 
+    margin-bottom: 0.5rem;
+    background: rgba(245, 216, 216, 0.424);
+    border-radius: 2rem;
 }
 #content{
     display:flex;
@@ -153,6 +155,22 @@ nav ul{
 }
 nav ul a{
     text-decoration: none;
+}
+h2{
+    text-align: center;
+}
+#ul_contact{
+    list-style: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+#ul_contact a{
+    text-decoration: none;
+}
+#ul_contact a:hover{
+    transition: 0.2s;
+    color: #8871a7;
 }
 /*---------------------------------*/
 @media screen and (max-width:750px){
