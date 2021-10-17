@@ -193,8 +193,6 @@ table {
     background-color: rgba(151, 67, 67, 0.788);
     border-bottom: ridge black;
 }
-  
-  
 th, td {
     transition: 0.5s;
     padding: 20px;
@@ -220,12 +218,14 @@ td:hover{
 #logoFin{
     display: flex;
     justify-content:right;
-
+    margin-right: 7rem;
 }
-
-
+#logoFin img{
+    width: 15rem;
+    height: auto;
+}
 /*---------------------------------*/
-@media screen and (max-width:750px){
+@media screen and (max-width:900px){
     #main{
         display: flex;
         flex-direction: column;
@@ -273,3 +273,4 @@ td:hover{
     #sources{
         font-size: 0.6rem;
     }
+}
