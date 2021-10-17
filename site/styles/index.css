@@ -144,7 +144,7 @@ footer{
 .box:hover {
     transition: all 0.2s ease-out;
     /*background:rgba(240, 202, 132, 0.555) ;*/
-    background-color: rgba(255, 174, 25, 0.555);/*----------couleur---*/
+    background-color: rgba(255, 174, 25, 0.555);/*----------couleur de jaune---*/
     box-shadow: rgb(41, 39, 39)  0px 5px 12px, rgb(41, 39, 39) 0px 4px 4px;/*--------*/
 }
 a:link{
@@ -184,7 +184,8 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    background-color: rgba(163, 126, 133,0.78);/*--------------couleur*/
+    background-color:rgba(156, 116, 160, 0.78);/*--------couleur de violet*/
+    /*background-color: rgba(163, 126, 133,0.78);/*--------------couleur de violet */
    /* background-color:rgba(0,161,232,0.78) ;*/
     /*background-color: rgba(151, 67, 67, 0.788);*/
     border-bottom: ridge black;
@@ -197,8 +198,9 @@ th, td {
 }
 td:hover{
     transition: all 0.2s ease-out;
-    
-    background-color: rgba(255, 174, 25, 0.342);
+    /*background-color: rgba(255, 174, 25, 0.342);*/
+    background-color:rgba(86, 26, 94,0.46);/*--------couleur de violet*/
+
 }
 #sources{
     margin-left: 1rem;
