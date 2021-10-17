@@ -10,14 +10,31 @@ Bonjour et bienvenue sur le readme.md du site pour la SAE-1.06
 ### Généralités :
 >Les langages uttilisées :
 > 1. HTML
-> 1. CSS
+> 1. CSS  
 > Le site uttilise des images pour le background et le corps, il est donc important de garder le fichier "img"
-> >Pour ces images et le fichier css, il uttilise des chemins relatif. Il est donc capital de concerver la meme configuration des dossiers et fichiers.
+> >Pour ces images et le fichier css, il uttilise des chemins relatif. Il est donc capital de concerver la meme configuration des dossiers et fichiers.  
 > 
 
 ### Généralités sur le script HTML :  
   
-#### Nav et encrages  
+Le fichier **HTML** est rangé dans ./html/index.html. Il est doit rester a sa place pour garder les bons chemins relatifs.  
+Ce fichier constitu l'essentiel du site, c'est lui qui contient toutes les information uttiles pour l'evénnement. 
   
-  Le fichier **HTML** est rangé dans ./html/index.html. Il est doit rester a sa place pour garder les bons chemins relatifs.  
+Ce script est séparé en plusieurs grands axes.  
   
+>#### Nav et encrages  
+>  
+>La balise nav est celle du menu a gauche, ou en haut sur mobile.  
+>Elle est composée d'une liste de lien dit "d'encrage", c'est à dire que quand ces liens sont cliqués, ils amennent l'uttilisateur quelquepars dans la page.  
+>  
+>#### Header et Footer
+>    
+>Le header est la partie différencié qui se situe en haut de la page.  
+>>Il contien le titre de la page et les logos de OwO Events et TF1.  
+>Le footer est la partie différencié qui se situe en bas de la page.  
+>>Il contien les contacs, les sources et les logos de OwO Events et TF1.  
+>  
+>####Le main  
+>  
+>Le reste reste du site contient des "box" qui sont des petites divisions du site contenant chaqu'une des informations sur le meme sujet. Elle peuvent aussi contenir des tableau et des images.  
+
