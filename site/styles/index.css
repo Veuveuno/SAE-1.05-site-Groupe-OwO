@@ -1,41 +1,270 @@
 body{
     display: flex;
     flex-direction: column;
+    font-size: 1.2rem;
+    background:black;
+    /*font-family:Georgia, 'Times New Roman', Times, serif;*/
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*font-family: fantasy;*/
 }
 header{
-    background-color: teal;
+    /*background: linear-gradient(to bottom,rgb(255, 175, 25),55%,#8871a7);*/
+    /*background: linear-gradient(to bottom,rgb(250, 189, 75),65%,#f3e1e1ee);/*------------*/
+    /*border-bottom: solid black;*/
+    padding:5px;/*-------------------------*/
+    background: rgba(27, 27, 27, 0.432);/*------*/
+    padding-bottom: 16rem ;/*-------*/
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    color: rgb(250, 189, 75) ;
+}
+header img{
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    justify-content:space-evenly;
 }
 #main{
     display: flex;
     flex-direction: row;
-    background-color: pink;
+    /*background-color: white;*/
+   /* background: rgb(76, 19, 16,0.71) ;*/ 
+    /*background: rgba(97, 43, 41, 0.411) ;*/
+    background: rgba(218, 198, 221, 0.6);/*-------*/
+}
+#tout
+{
+    background-image:url(img/theatre.jpg);
+    background-attachment:fixed;
+    background-position: 0;
+    background-size: cover;
+    /*-webkit-filter: blur(4px);*/
 }
 #contener{
     display: flex;
-    background-color: green;
     margin: 0 auto;
+    margin-top: 0.5rem;/*--------re*/
+    margin-bottom: 0.5rem;/*-------re*/
+    background: rgba(218, 198, 221, 0.4);/*-----------*/
+    border-radius: 2rem;/*------------re*/
 }
 #content{
-    display: flex;
+    display:flex;
     flex-direction: column;
 }
-nav{
-    margin-left: 10px;
-    background-color: purple;
+#menu{
+    padding-left: 0;
+    width: 13rem;
+    margin: 0.5rem;
+    margin-top: 3rem;/*-------------*/
+    color: black;
+    border: ridge black;
+    border-radius: 10%;
 }
-.box:nth-child(2n-1){
-    display: flex;
-    flex-direction: row;
-    background-color: red;
+#menu li{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 0.3rem;
 }
-.box:nth-child(2n){
+#menu a:nth-child(2n-1) li{
+    transition: 1s;
+    background-color: rgba(248, 212, 212, 0.7);
+}
+#menu a:nth-child(2n) li{
+    transition: 1s;
+    background-color: rgba(241, 189, 83, 0.7);/*-----------*/
+}
+#menu a:nth-last-child(1) li{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+#menu a:nth-child(1) li{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+#menu a li:hover{
+    transition: 0.5s;
+    /*background-color: rgba(224, 144, 144, 0.5);*/
+    background-color: white;
+}
+.box:nth-child(2n) .globarticle{
     display: flex;
     flex-direction: row-reverse;
-    background-color: red;
+    background-color: transparent;/*--------------*/
+    border-radius: 5%;
+}
+.box:nth-child(2n-1) .globarticle{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;/*--------------*/
+    border-radius: 5%; 
+}
+.box .globarticle article{
+    flex-grow: 1;
 }
 img{
-    background-color: turquoise;
+    background: rgba(255, 175, 25,0.75);
+    border-radius: 5%;
+    margin: 0.5%;
+    max-width: 100%;
+    width: 15em;
+    height: 10em;
 }
 footer{
-    background-color: yellow;
+    background: linear-gradient(to bottom,rgb(250, 189, 75),70%,#f3e1e1ee);    
+}
+.titreP{
+    display: flex;
+    font-size: 2rem;
+    /*color: rgb(216, 149, 25);/*-----------*/
+    color: rgb(86, 26, 94) ;/*--------*/
+    justify-content: center;
+    padding-top: 1%;   
+}
+.corpP{
+    text-align: justify;
+}
+.box {
+    transition:1s;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(218, 204, 240, 0.555);/*-----------*/
+    /*background-color:white;*/   
+    /*border-top: ridge black; 
+    border-bottom: ridge black; */
+    padding: 1rem;
+    padding-top: 0rem;
+    margin: 2rem;
+    box-shadow: rgb(41, 39, 39)  0px 1px 7px;/*-----*/
+    border-radius: 1.5rem;/*------re*/
+}
+.box:hover {
+    transition: all 0.2s ease-out;
+    background:rgba(240, 202, 132, 0.555) ;
+    box-shadow: rgb(41, 39, 39)  0px 5px 12px, rgb(41, 39, 39) 0px 4px 4px;/*--------*/
+}
+a:link{
+    transition: all 0.2s;
+    color:black;
+}
+a:visited{
+    transition: all 0.2s;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+nav ul{
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+}
+#ul_contact{
+    list-style: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+#ul_contact a{
+    text-decoration: none;
+}
+#ul_contact a:hover{
+    transition: 0.2s;
+    color: white;/*-----------*/
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(151, 67, 67, 0.788);
+    border-bottom: ridge black;
+}
+th, td {
+    transition: 0.5s;
+    padding: 20px;
+    border-top: ridge black;
+    border-bottom: ridge black;
+}
+td:hover{
+    transition: all 0.2s ease-out;
+    background-color: rgba(255, 174, 25, 0.342);
+}
+#sources{
+    margin-left: 1rem;
+    color: gray;
+    font-size: 0.8rem;
+}
+.sources{
+    margin-left: 1rem;
+}
+#main img{
+    width: 25rem;
+    height: 20rem;
+}
+#logoFin{
+    display: flex;
+    justify-content:right;
+    margin-right: 7rem;
+}
+#logoFin img{
+    width: 15rem;
+    height: auto;
+}
+/*---------------------------------*/
+@media screen and (max-width:900px){
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+    #menu{
+        /*width: auto;*/
+        border: transparent;
+        width: auto;
+        /*margin-left: auto;
+        margin-right: auto;
+        border-radius: 1.5rem;*/
+    }
+    #menu a li{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #menu a:nth-last-child(1) li{
+        border-bottom-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+    }
+    #menu a:nth-child(1) li{
+        border-top-left-radius: 5rem;
+        border-top-right-radius: 5rem;
+    }
+    
+    .titreP{
+        font-size: 1.6rem;
+    }
+    body{
+        font-size: 0.6rem;
+    }
+    .box{
+        margin: 0.5rem;
+    }
+    #main img{
+        display: flex;
+        order: 1;
+    }
+    .box:nth-child(2n) .globarticle{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .box:nth-child(2n-1) .globarticle{
+        display: flex;
+        flex-direction: column;
+    }
+    #sources{
+        font-size: 0.6rem;
+    }
 }
