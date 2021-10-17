@@ -113,7 +113,7 @@ img{
     height: 10em;
 }
 footer{
-    background: linear-gradient(#f3e1e1ee,70%,rgb(250, 189, 75));    
+    background: linear-gradient(#f3e1e1ee,30%,rgb(250, 189, 75));    
 }
 .titreP{
     display: flex;
@@ -132,7 +132,7 @@ footer{
     flex-direction: column;
     background-color: rgba(196, 89, 36, 0.747);/*-------Couleur Terracotta*/
     /*background-color: rgba(218, 204, 240, 0.555);-----couleur sage------*/
-    /*background-color:white;*/   
+    /*background-color:white;*/  
     /*border-top: ridge black; 
     border-bottom: ridge black; */
     padding: 1rem;
@@ -143,7 +143,8 @@ footer{
 }
 .box:hover {
     transition: all 0.2s ease-out;
-    background:rgba(240, 202, 132, 0.555) ;
+    /*background:rgba(240, 202, 132, 0.555) ;*/
+    background-color: rgba(255, 174, 25, 0.555);/*----------couleur---*/
     box-shadow: rgb(41, 39, 39)  0px 5px 12px, rgb(41, 39, 39) 0px 4px 4px;/*--------*/
 }
 a:link{
@@ -183,7 +184,8 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    background-color:rgba(196, 88, 36, 0.788);
+    background-color: rgba(163, 126, 133,0.78);/*--------------couleur*/
+   /* background-color:rgba(0,161,232,0.78) ;*/
     /*background-color: rgba(151, 67, 67, 0.788);*/
     border-bottom: ridge black;
 }
@@ -195,6 +197,7 @@ th, td {
 }
 td:hover{
     transition: all 0.2s ease-out;
+    
     background-color: rgba(255, 174, 25, 0.342);
 }
 #sources{
