@@ -121,7 +121,7 @@ img{
     height: 10em;
 }
 footer{
-    background: linear-gradient(to bottom,rgb(250, 189, 75),70%,#f3e1e1ee);    
+    background: linear-gradient(#f3e1e1ee,70%,rgb(250, 189, 75));    
 }
 .titreP{
     display: flex;
@@ -209,8 +209,8 @@ td {
     margin-left: 1rem;
 }
 #main img{
-    width: 25rem;
-    height: 20rem;
+    width: 35%;
+    height: auto;
 }
 #logoFin{
     display: flex;
@@ -223,6 +223,15 @@ td {
 }
 /*---------------------------------*/
 @media screen and (max-width:900px){
+    header{
+        flex-direction: column;
+    }
+    header #img_2{
+        order:-1;
+        margin-left: 1rem;
+        margin-right: auto;
+        margin-bottom: 1rem;
+    }
     #main{
         display: flex;
         flex-direction: column;
@@ -247,7 +256,6 @@ td {
         border-top-left-radius: 5rem;
         border-top-right-radius: 5rem;
     }
-    
     .titreP{
         font-size: 1.6rem;
     }
@@ -261,6 +269,9 @@ td {
         display: flex;
         order: 1;
     }
+    .globarticle{
+        align-items : center;
+    }
     .box:nth-child(2n) .globarticle{
         display: flex;
         flex-direction: column-reverse;
@@ -271,5 +282,8 @@ td {
     }
     #sources{
         font-size: 0.6rem;
+    }
+    td{
+        padding:5px;
     }
 }
