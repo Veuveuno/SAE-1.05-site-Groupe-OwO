@@ -35,7 +35,9 @@ Ce script est séparé en plusieurs grands axes.
 >Le footer est la partie différencié qui se situe en bas de la page.  
 >>Il contien les contacs, les sources et les logos de OwO Events et TF1.  
 >  
->####Le main  
+>#### Le main  
 >  
 >Le reste reste du site contient des "box" qui sont des petites divisions du site contenant chaqu'une des informations sur le meme sujet. Elle peuvent aussi contenir des tableau et des images.  
-
+  
+  
+###MERCI D'AVOIR LU MON README.MD
