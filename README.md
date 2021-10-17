@@ -40,4 +40,4 @@ Ce script est séparé en plusieurs grands axes.
 >Le reste reste du site contient des "box" qui sont des petites divisions du site contenant chaqu'une des informations sur le meme sujet. Elle peuvent aussi contenir des tableau et des images.  
   
   
-###MERCI D'AVOIR LU MON README.MD
+### MERCI D'AVOIR LU MON README.MD
