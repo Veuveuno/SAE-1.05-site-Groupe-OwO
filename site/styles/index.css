@@ -188,21 +188,19 @@ h2{
 }
 table {
     table-layout: fixed;
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
     border-collapse: collapse;
-    background-color: rgba(151, 67, 67, 0.788);
+    background-color:rgba(86, 87, 102, 0.555);
     border-bottom: ridge black;
 }
-th, td {
+td {
     transition: 0.5s;
     padding: 20px;
     border-top: ridge black;
     border-bottom: ridge black;
 }
-td:hover{
-    transition: all 0.2s ease-out;
-    background-color: rgba(255, 174, 25, 0.342);
-}
+
 #sources{
     margin-left: 1rem;
     color: gray;
