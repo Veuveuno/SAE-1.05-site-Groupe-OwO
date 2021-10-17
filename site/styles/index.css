@@ -180,16 +180,25 @@ h2{
     transition: 0.2s;
     color: white;/*-----------*/
 }
+/*table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    background-color:rgba(138, 105, 141, 0.6);
+    /*background-color: rgba(163, 126, 133,0.78);
+    border-bottom: ridge black;
+}*/
+
+
 table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    background-color:rgba(156, 116, 160, 0.6);/*--------couleur de violet*/
-    /*background-color: rgba(163, 126, 133,0.78);/*--------------couleur de violet */
-   /* background-color:rgba(0,161,232,0.78) ;*/
-    /*background-color: rgba(151, 67, 67, 0.788);*/
+    background-color: rgba(151, 67, 67, 0.788);
     border-bottom: ridge black;
 }
+
+
 th, td {
     transition: 0.5s;
     padding: 20px;
@@ -198,9 +207,7 @@ th, td {
 }
 td:hover{
     transition: all 0.2s ease-out;
-    /*background-color: rgba(255, 174, 25, 0.342);*/
-    background-color:rgba(86, 26, 94,0.46);/*--------couleur de violet*/
-
+    background-color: rgba(255, 174, 25, 0.342);
 }
 #sources{
     margin-left: 1rem;
