@@ -44,9 +44,13 @@ Ce script est séparé en plusieurs grands axes.
 Le fichier **CSS** est rangé dans .style/index.css. Il doit rester à sa place pour garder les bons chemins relatifs.  
 Ce fichier permet une lecture plus agréable et ordonnée du script HTML.
 
-Ce script embélit les éléments ayant l'attribut "id" ou "class" ainsi les balises telles que "h1" ou "nav".
+Ce script embélit les éléments de "body" ayant l'attribut "id" ou "class" ainsi les balises telles que "h1" ou "nav". 
 
+>### Fonds
+>
+>Nous avons utiliser plusieurs propriété pour les fonds de notre site :
+> * background-image : nous avons inséré une image du théâtres silvain
+> * background-color 
 
   
-  
-### MERCI D'AVOIR LU NOTRE README.MD
+### MERCI D'AVOIR LU NOTRE README.MD 😉
