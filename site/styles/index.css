@@ -30,7 +30,7 @@ header img{
 }
 #tout
 {
-    background-image:url(theatre.jpg);
+    background-image:url(../img/theatre.jpg);
     background-attachment: fixed;
     background-position: 0;
     background-size: cover;
