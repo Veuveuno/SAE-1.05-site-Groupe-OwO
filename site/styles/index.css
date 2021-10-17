@@ -222,9 +222,8 @@ td {
     width: 15rem;
     height: auto;
 }
-#mentionsLégales{
+#mentionsLégales a{
     margin-left: 1rem;
-    color: gray;
     font-size: 0.8rem;
 }
 /*---------------------------------*/
