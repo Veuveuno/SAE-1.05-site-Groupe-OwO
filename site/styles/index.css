@@ -257,7 +257,6 @@ td {
         border-top-left-radius: 5rem;
         border-top-right-radius: 5rem;
     }
-    
     .titreP{
         font-size: 1.6rem;
     }
@@ -284,5 +283,8 @@ td {
     }
     #sources{
         font-size: 0.6rem;
+    }
+    td{
+        padding:5px;
     }
 }
