@@ -31,7 +31,8 @@ Ce script est séparé en plusieurs grands axes.
 >    
 >Le header est la partie différencié qui se situe en haut de la page.  
 >>Il contien le titre de la page et les logos de OwO Events et TF1.  
-Le footer est la partie différencié qui se situe en bas de la page.  
+>  
+>Le footer est la partie différencié qui se situe en bas de la page.  
 >>Il contien les contacs, les sources et les logos de OwO Events et TF1.  
 >  
 >####Le main  
