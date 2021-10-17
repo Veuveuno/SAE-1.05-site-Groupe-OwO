@@ -195,7 +195,6 @@ table {
     border-bottom: ridge black;
 }
 td {
-    transition: 0.5s;
     padding: 20px;
     border-top: ridge black;
     border-bottom: ridge black;
