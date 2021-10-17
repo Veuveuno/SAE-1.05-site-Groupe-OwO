@@ -20,17 +20,11 @@ header{
     /*justify-content: space-between;*/
     color: rgb(250, 189, 75) ;
 }
-
-/* ICI */
 header img{
     width: 5rem;
     height: 2rem;
     display: flex;
     justify-content:space-evenly;
-}
-/*--------*/
-header h1{
-    padding-top: 16rem;
 }
 #main{
     display: flex;
@@ -42,20 +36,19 @@ header h1{
 }
 #tout
 {
-    background-image:url(../img/theatre.jpg);
+    background-image:url(img/theatre.jpg);
     background-attachment:fixed;
     background-position: 0;
     background-size: cover;
     /*-webkit-filter: blur(4px);*/
-
 }
 #contener{
     display: flex;
     margin: 0 auto;
-    /*margin-top: 0.5rem;*/ /*----------*/
-    /*margin-bottom: 0.5rem;*/
+    margin-top: 0.5rem;/*--------re*/
+    margin-bottom: 0.5rem;/*-------re*/
     background: rgba(218, 198, 221, 0.4);/*-----------*/
-    /*border-radius: 2rem;*//*------------------------*/
+    border-radius: 2rem;/*------------re*/
 }
 #content{
     display:flex;
@@ -139,13 +132,13 @@ footer{
     flex-direction: column;
     background-color: rgba(218, 204, 240, 0.555);/*-----------*/
     /*background-color:white;*/   
-    border-top: ridge black; 
-    border-bottom: ridge black; 
+    /*border-top: ridge black; 
+    border-bottom: ridge black; */
     padding: 1rem;
     padding-top: 0rem;
     margin: 2rem;
     box-shadow: rgb(41, 39, 39)  0px 1px 7px;/*-----*/
-    /*border-radius: 1.5rem; ------------*/
+    border-radius: 1.5rem;/*------re*/
 }
 .box:hover {
     transition: all 0.2s ease-out;
@@ -185,7 +178,6 @@ h2{
     transition: 0.2s;
     color: white;/*-----------*/
 }
-
 table {
     table-layout: fixed;
     width: 100%;
@@ -232,10 +224,11 @@ td:hover{
     }
     #menu{
         /*width: auto;*/
-        margin-left: auto;
+        border: transparent;
+        width: auto;
+        /*margin-left: auto;
         margin-right: auto;
-        
-        border-radius: 1.5rem;
+        border-radius: 1.5rem;*/
     }
     #menu a li{
         padding-left: 1rem;
@@ -249,6 +242,7 @@ td:hover{
         border-top-left-radius: 5rem;
         border-top-right-radius: 5rem;
     }
+    
     .titreP{
         font-size: 1.6rem;
     }
