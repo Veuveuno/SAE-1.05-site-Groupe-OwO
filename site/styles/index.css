@@ -21,10 +21,10 @@ header{
     color: rgb(250, 189, 75) ;
 }
 header img{
-    width: 5rem;
-    height: 2rem;
+    width: auto;
+    height:3rem;
     display: flex;
-    justify-content:space-evenly;
+    margin: auto;
 }
 #main{
     display: flex;
@@ -32,7 +32,7 @@ header img{
     /*background-color: white;*/
    /* background: rgb(76, 19, 16,0.71) ;*/ 
     /*background: rgba(97, 43, 41, 0.411) ;*/
-    background: rgba(218, 198, 221, 0.6);/*-------*/
+    background: rgba(218, 198, 221, 0.35);/*-------*/
 }
 #tout
 {
@@ -74,7 +74,7 @@ header img{
 }
 #menu a:nth-child(2n) li{
     transition: 1s;
-    background-color: rgba(241, 189, 83, 0.7);/*-----------*/
+    background-color: rgba(241, 189, 83, 0.7);
 }
 #menu a:nth-last-child(1) li{
     border-bottom-left-radius: 1rem;
@@ -113,7 +113,7 @@ img{
     height: 10em;
 }
 footer{
-    background: linear-gradient(to bottom,rgb(250, 189, 75),70%,#f3e1e1ee);    
+    background: linear-gradient(#f3e1e1ee,70%,rgb(250, 189, 75));    
 }
 .titreP{
     display: flex;
@@ -130,7 +130,8 @@ footer{
     transition:1s;
     display: flex;
     flex-direction: column;
-    background-color: rgba(218, 204, 240, 0.555);/*-----------*/
+    background-color: rgba(196, 88, 36, 0.555);/*-------Couleur*/
+    /*background-color: rgba(218, 204, 240, 0.555);-----couleur sage------*/
     /*background-color:white;*/   
     /*border-top: ridge black; 
     border-bottom: ridge black; */
