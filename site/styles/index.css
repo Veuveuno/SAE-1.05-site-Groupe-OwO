@@ -114,7 +114,6 @@ h1{
     flex-grow: 1;
 }
 img{
-    background: rgba(255, 175, 25,0.75);
     border-radius: 5%;
     margin: 0.5%;
     max-width: 100%;
@@ -139,7 +138,7 @@ footer{
     transition:1s;
     display: flex;
     flex-direction: column;
-    background-color: rgba(196, 89, 36, 0.747);/*-------Couleur Terracotta*/
+    background-color: rgba(218, 204, 240, 0.555);
     /*background-color: rgba(218, 204, 240, 0.555);-----couleur sage------*/
     /*background-color:white;*/  
     /*border-top: ridge black; 
@@ -152,8 +151,7 @@ footer{
 }
 .box:hover {
     transition: all 0.2s ease-out;
-    /*background:rgba(240, 202, 132, 0.555) ;*/
-    background-color: rgba(255, 174, 25, 0.555);/*----------couleur de jaune---*/
+    background:rgba(240, 202, 132, 0.555) ;
     box-shadow: rgb(41, 39, 39)  0px 5px 12px, rgb(41, 39, 39) 0px 4px 4px;/*--------*/
 }
 a:link{
@@ -227,6 +225,9 @@ td {
 #mentionsLégales a{
     margin-left: 1rem;
     font-size: 0.8rem;
+}
+h3{
+    text-align: center;
 }
 /*---------------------------------*/
 @media screen and (max-width:1000px){
