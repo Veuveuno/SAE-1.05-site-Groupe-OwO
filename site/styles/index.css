@@ -212,8 +212,8 @@ td:hover{
     margin-left: 1rem;
 }
 #main img{
-    width: 25rem;
-    height: 20rem;
+    width: 35%;
+    height: auto;
 }
 #logoFin{
     display: flex;
@@ -226,6 +226,15 @@ td:hover{
 }
 /*---------------------------------*/
 @media screen and (max-width:900px){
+    header{
+        flex-direction: column;
+    }
+    header #img_2{
+        order:-1;
+        margin-left: 1rem;
+        margin-right: auto;
+        margin-bottom: 1rem;
+    }
     #main{
         display: flex;
         flex-direction: column;
@@ -263,6 +272,9 @@ td:hover{
     #main img{
         display: flex;
         order: 1;
+    }
+    .globarticle{
+        align-items : center;
     }
     .box:nth-child(2n) .globarticle{
         display: flex;
