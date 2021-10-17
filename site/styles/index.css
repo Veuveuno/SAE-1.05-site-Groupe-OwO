@@ -66,11 +66,12 @@ header h1{
     /*background-color: white;*/
    /* background: rgb(76, 19, 16,0.71) ;*/ 
     /*background: rgba(97, 43, 41, 0.411) ;*/
-    background: rgba(218, 198, 221, 0.6);/*-------*/
+    background: rgba(218, 198, 221, 0.35);/*-------*/
 }
 #main img{
-    width: 25rem;
-    height: 20rem;
+    flex-basis: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 nav ul{
     list-style: none;
@@ -129,8 +130,9 @@ nav ul a{
     transition:1s;
     display: flex;
     flex-direction: column;
-    background-color: rgba(218, 204, 240, 0.555);/*-----------*/
-    /*background-color:white;*/   
+    background-color: rgba(218, 204, 240, 0.555);
+    /*background-color: rgba(218, 204, 240, 0.555);-----couleur sage------*/
+    /*background-color:white;*/  
     /*border-top: ridge black; 
     border-bottom: ridge black; */
     padding: 1rem;
@@ -172,19 +174,22 @@ nav ul a{
 }
 table {
     table-layout: fixed;
-    width: 100%;
+    width: 90%;
+    margin-left: 10%;
     border-collapse: collapse;
-    background-color: rgba(151, 67, 67, 0.788);
+    background-color: rgba(86, 87, 102, 0.555);
     border-bottom: ridge black;
 }
 td {
-    transition: 0.5s;
     padding: 20px;
     border-top: ridge black;
     border-bottom: ridge black;
 }
 footer{
     background: linear-gradient(to bottom,rgb(250, 189, 75),70%,#f3e1e1ee);    
+}
+h3{
+    text-align: center;
 }
 h2{
     text-align: center;
@@ -211,6 +216,10 @@ h2{
     width: 15rem;
     height: auto;
 }
+#mentionsLégales a{
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
 #sources{
     margin-left: 1rem;
     color: gray;
@@ -220,9 +229,29 @@ h2{
     margin-left: 1rem;
 }
 /*---------------------------------*/
+@media screen and (max-width:1000px){
+    #menu{
+        font-size: 1rem;
+        width: 10rem;
+    }    
+}
 @media screen and (max-width:900px){
     body{
-        font-size: 0.6rem;
+    font-size: 1rem;
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        font-size: 0.8rem;
+    }
+    header{
+        flex-direction: column;
+    }
+    header #img_2{
+        order:-1;
+        margin-left: 1rem;
+        margin-right: auto;
+        margin-bottom: 1rem;
     }
     #main{
         display: flex;
@@ -248,12 +277,11 @@ h2{
         border-top-left-radius: 5rem;
         border-top-right-radius: 5rem;
     }
-    #menu a:nth-last-child(1) li{
-        border-bottom-left-radius: 5rem;
-        border-bottom-right-radius: 5rem;
-    }
     .box{
          margin: 0.5rem;
+    }
+    .globarticle{
+        align-items : center;
     }
     .box:nth-child(2n) .globarticle{
         display: flex;
@@ -268,5 +296,14 @@ h2{
     }
     #sources{
         font-size: 0.6rem;
+    }
+    td{
+        padding:5px;
+    }
+    #logoFin{
+        justify-content: center;
+        width: 30%;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
