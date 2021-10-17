@@ -209,8 +209,9 @@ td {
     margin-left: 1rem;
 }
 #main img{
-    width: 35%;
-    height: auto;
+    flex-basis: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 #logoFin{
     display: flex;
@@ -222,7 +223,18 @@ td {
     height: auto;
 }
 /*---------------------------------*/
+@media screen and (max-width:1000px){
+    #menu{
+        font-size: 1rem;
+        width: 10rem;
+    }    
+}
 @media screen and (max-width:900px){
+    body{
+    font-size: 1rem;
+    }
+}
+@media screen and (max-width:800px){
     header{
         flex-direction: column;
     }
@@ -260,7 +272,7 @@ td {
         font-size: 1.6rem;
     }
     body{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
     .box{
         margin: 0.5rem;
@@ -268,7 +280,6 @@ td {
     #main img{
         display: flex;
         order: 1;
-        width: 50%;
     }
     .globarticle{
         align-items : center;
