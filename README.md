@@ -41,10 +41,10 @@ Ce script est séparé en plusieurs grands axes.
 
 ### Généralités sur le script CSS
 
-Le fichier **CSS** est rangé dans .style/index.css. Il est doit rester a sa place pour garder les bons chemins relatifs.  
+Le fichier **CSS** est rangé dans .style/index.css. Il doit rester à sa place pour garder les bons chemins relatifs.  
 Ce fichier permet une lecture plus agréable et ordonnée du script HTML.
 
-Ce script 
+Ce script embélit les éléments ayant l'attribut "id" ou "class" ainsi les balises telles que "h1" ou "nav".
 
 
   
