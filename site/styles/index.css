@@ -130,7 +130,7 @@ footer{
     transition:1s;
     display: flex;
     flex-direction: column;
-    background-color: rgba(196, 88, 36, 0.555);/*-------Couleur*/
+    background-color: rgba(196, 89, 36, 0.747);/*-------Couleur Terracotta*/
     /*background-color: rgba(218, 204, 240, 0.555);-----couleur sage------*/
     /*background-color:white;*/   
     /*border-top: ridge black; 
@@ -183,7 +183,8 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    background-color: rgba(151, 67, 67, 0.788);
+    background-color:rgba(196, 88, 36, 0.788);
+    /*background-color: rgba(151, 67, 67, 0.788);*/
     border-bottom: ridge black;
 }
 th, td {
