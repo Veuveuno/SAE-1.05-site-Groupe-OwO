@@ -10,28 +10,40 @@ body{
 }
 header{
     /*background: linear-gradient(to bottom,rgb(255, 175, 25),55%,#8871a7);*/
-    background: linear-gradient(to bottom,rgb(250, 189, 75),65%,#f3e1e1ee);/*------------*/
-    border-bottom: solid black;
+    /*background: linear-gradient(to bottom,rgb(250, 189, 75),65%,#f3e1e1ee);/*------------*/
+    /*border-bottom: solid black;*/
     padding:5px;/*-------------------------*/
+    background: rgba(27, 27, 27, 0.432);/*------*/
+    padding-bottom: 16rem ;/*-------*/
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
+    color: rgb(250, 189, 75) ;
 }
+
+/* ICI */
 header img{
-    width: 8rem;
-    height: 5rem;
+    width: 5rem;
+    height: 2rem;
+    display: flex;
+    justify-content:space-evenly;
+}
+/*--------*/
+header h1{
+    padding-top: 16rem;
 }
 #main{
     display: flex;
     flex-direction: row;
     /*background-color: white;*/
    /* background: rgb(76, 19, 16,0.71) ;*/ 
-    background: rgba(97, 43, 41, 0.411) ;
+    /*background: rgba(97, 43, 41, 0.411) ;*/
+    background: rgba(218, 198, 221, 0.6);/*-------*/
 }
 #tout
 {
-    background-image:url(../img/theatre.jpg);
-    background-attachment: fixed;
+    background-image:url(theatre.jpg);
+    background-attachment:fixed;
     background-position: 0;
     background-size: cover;
     /*-webkit-filter: blur(4px);*/
@@ -42,7 +54,7 @@ header img{
     margin: 0 auto;
     /*margin-top: 0.5rem;*/ /*----------*/
     /*margin-bottom: 0.5rem;*/
-    background: rgba(226, 210, 228, 0.424);/*-----------*/
+    background: rgba(218, 198, 221, 0.4);/*-----------*/
     /*border-radius: 2rem;*//*------------------------*/
 }
 #content{
@@ -207,7 +219,8 @@ td:hover{
 }
 #logoFin{
     display: flex;
-    justify-content: space-around;
+    justify-content:right;
+
 }
 
 
