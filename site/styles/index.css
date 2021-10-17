@@ -222,6 +222,11 @@ td {
     width: 15rem;
     height: auto;
 }
+#mentionsLégales{
+    margin-left: 1rem;
+    color: gray;
+    font-size: 0.8rem;
+}
 /*---------------------------------*/
 @media screen and (max-width:1000px){
     #menu{
