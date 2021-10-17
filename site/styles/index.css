@@ -14,24 +14,28 @@ header{
     /*border-bottom: solid black;*/
     padding:5px;/*-------------------------*/
     background: rgba(27, 27, 27, 0.432);/*------*/
-    padding-bottom: 16rem ;/*-------*/
     display: flex;
     flex-direction: row;
-    /*justify-content: space-between;*/
-    color: rgb(250, 189, 75) ;
+    justify-content: space-between;
+    color: rgb(250, 189, 75);
 }
-
 /* ICI */
 header img{
-    width: 5rem;
-    height: 2rem;
-    display: flex;
-    justify-content:space-evenly;
+    width: auto;
+    height: 3rem;
+    margin: auto;
+}
+header #img_1{
+    margin-left: 1rem;
+}
+header #img_2{
+    margin-right: 1rem;
+}
+h1{
+    padding-top: 0;
+    font-size: 2rem;
 }
 /*--------*/
-header h1{
-    padding-top: 16rem;
-}
 #main{
     display: flex;
     flex-direction: row;
@@ -112,7 +116,6 @@ header h1{
     flex-grow: 1;
 }
 img{
-    background: rgba(255, 175, 25,0.75);
     border-radius: 5%;
     margin: 0.5%;
     max-width: 100%;
