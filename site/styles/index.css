@@ -269,6 +269,7 @@ td {
     #main img{
         display: flex;
         order: 1;
+        width: 50%;
     }
     .globarticle{
         align-items : center;
@@ -286,5 +287,8 @@ td {
     }
     td{
         padding:5px;
+    }
+    #logoFin{
+        height: auto;
     }
 }
