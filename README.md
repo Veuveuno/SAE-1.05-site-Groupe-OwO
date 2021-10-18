@@ -3,9 +3,9 @@ SAE-1.05-site-Groupe-OwO <a name="haut_page"></a>
 
 # Table des matiéres
 1. [Fiche technique du site détaillée](# Fiche technique du site détaillée)  
-2. [Généralités](## Généralités)
-3. [Généralités sur le script HTML](## Généralités sur le script HTML)
-4. [Généralités sur le script CSS](## Généralités sur le script CSS)
+2. [Généralités](# Généralités)
+3. [Généralités sur le script HTML](# Généralités sur le script HTML)
+4. [Généralités sur le script CSS](# Généralités sur le script CSS)
 
 
 
