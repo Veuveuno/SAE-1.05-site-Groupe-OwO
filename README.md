@@ -62,4 +62,21 @@ Ce script embélit les éléments de "body" ayant l'attribut "id" ou "class" ain
 | title           | rgb(86, 26, 94)                                                     |
 | table           | rgba(86, 87, 102, 0.555)                                            |
   
+>Voici ce qu'on
+
+```css
+.box {
+    transition:1s;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(218, 204, 240, 0.555);
+    padding: 1rem;
+    padding-top: 0rem;
+    margin: 2rem;
+    box-shadow: rgb(41, 39, 39)  0px 1px 7px;
+    border-radius: 1.5rem;
+}
+```
+
+
 ### MERCI D'AVOIR LU NOTRE README.MD 😉
