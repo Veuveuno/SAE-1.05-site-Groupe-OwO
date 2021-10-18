@@ -61,8 +61,9 @@ Ce script embélit les éléments de "body" ayant l'attribut "id" ou "class" ain
 | .box            | rgba(218, 204, 240, 0.555), rgba(240, 202, 132, 0.555) (:hover)     |
 | title           | rgb(86, 26, 94)                                                     |
 | table           | rgba(86, 87, 102, 0.555)                                            |
-  
->Voici ce qu'on
+
+
+>Voici le script css de notre div section:
 
 ```css
 .box {
