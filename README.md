@@ -15,7 +15,7 @@ Bonjour et bienvenue sur le readme.md du site pour la SAE-1.06
 > Le site utilise des images pour le background et le corps, il est donc important de garder le fichier "img"
 >>Pour ces images et le fichier css, il utilise des chemins relatif. Il est donc capital de conserver la même configuration des dossiers et fichiers.  
 > 
-
+***
 ### Généralités sur le script HTML :  
   
 Le fichier **HTML** est rangé dans ./html/index.html. Il est doit rester a sa place pour garder les bons chemins relatifs.  
@@ -39,7 +39,7 @@ Ce script est séparé en plusieurs grands axes.
 >#### Le main  
 >  
 >Le reste reste du site contient des "box" qui sont des petites divisions du site contenant chacune des informations sur le même sujet. Elles peuvent aussi contenir des tableaux et des images.  
-
+***
 ### Généralités sur le script CSS
 
 Le fichier **CSS** est rangé dans .style/index.css. Il doit rester à sa place pour garder les bons chemins relatifs.  
