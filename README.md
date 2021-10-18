@@ -50,7 +50,9 @@ Ce script embélit les éléments de "body" ayant l'attribut "id" ou "class" ain
 >
 >Nous avons utiliser plusieurs propriété pour les fonds de notre site :
 > * background-image : nous avons inséré une image du théâtres silvain
-> * background-color 
+> * background-color : utilisé en tant que filtre sur image ou box
+
+
 
   
 ### MERCI D'AVOIR LU NOTRE README.MD 😉
