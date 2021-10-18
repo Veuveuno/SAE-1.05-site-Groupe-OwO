@@ -53,6 +53,10 @@ Ce script embélit les éléments de "body" ayant l'attribut "id" ou "class" ain
 > * background-color : utilisé en tant que filtre sur image ou box
 
 
-
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
   
 ### MERCI D'AVOIR LU NOTRE README.MD 😉
