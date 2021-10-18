@@ -3,10 +3,7 @@ body{
     flex-direction: column;
     font-size: 1.2rem;
     background:black;
-    /*font-family:Georgia, 'Times New Roman', Times, serif;*/
-    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /*font-family: fantasy;*/
 }
 img{
     border-radius: 5%;
@@ -31,14 +28,10 @@ a:visited{
     background-attachment:fixed;
     background-position: 0;
     background-size: cover;
-    /*-webkit-filter: blur(4px);*/
 }
 header{
-    /*background: linear-gradient(to bottom,rgb(255, 175, 25),55%,#8871a7);*/
-    /*background: linear-gradient(to bottom,rgb(250, 189, 75),65%,#f3e1e1ee);/*------------*/
-    /*border-bottom: solid black;*/
-    padding:5px;/*-------------------------*/
-    background: rgba(27, 27, 27, 0.432);/*------*/
+    padding:5px;
+    background: rgba(27, 27, 27, 0.432);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -59,14 +52,10 @@ header h1{
     padding-top: 0;
     font-size: 2rem;
 }
-/*--------*/
 #main{
     display: flex;
     flex-direction: row;
-    /*background-color: white;*/
-   /* background: rgb(76, 19, 16,0.71) ;*/ 
-    /*background: rgba(97, 43, 41, 0.411) ;*/
-    background: rgba(218, 198, 221, 0.35);/*-------*/
+    background: rgba(218, 198, 221, 0.35);
 }
 #main img{
     flex-basis: 30%;
@@ -83,7 +72,7 @@ nav ul a{
     padding-left: 0;
     width: 13rem;
     margin: 0.5rem;
-    margin-top: 3rem;/*-------------*/
+    margin-top: 3rem;
     color: black;
     border: ridge black;
     border-radius: 10%;
@@ -95,12 +84,11 @@ nav ul a{
 }
 #menu a li:hover{
     transition: 0.5s;
-    /*background-color: rgba(224, 144, 144, 0.5);*/
     background-color: white;
 }
 #menu a:nth-child(2n) li{
     transition: 1s;
-    background-color: rgba(241, 189, 83, 0.7);/*-----------*/
+    background-color: rgba(241, 189, 83, 0.7);
 }
 #menu a:nth-child(2n-1) li{
     transition: 1s;
@@ -117,10 +105,10 @@ nav ul a{
 #contener{
     display: flex;
     margin: 0 auto;
-    margin-top: 0.5rem;/*--------re*/
-    margin-bottom: 0.5rem;/*-------re*/
-    background: rgba(218, 198, 221, 0.4);/*-----------*/
-    border-radius: 2rem;/*------------re*/
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background: rgba(218, 198, 221, 0.4);
+    border-radius: 2rem;
 }
 #content{
     display:flex;
@@ -131,38 +119,34 @@ nav ul a{
     display: flex;
     flex-direction: column;
     background-color: rgba(218, 204, 240, 0.555);
-    /*background-color: rgba(218, 204, 240, 0.555);-----couleur sage------*/
-    /*background-color:white;*/  
-    /*border-top: ridge black; 
-    border-bottom: ridge black; */
     padding: 1rem;
     padding-top: 0rem;
     margin: 2rem;
-    box-shadow: rgb(41, 39, 39)  0px 1px 7px;/*-----*/
-    border-radius: 1.5rem;/*------re*/
+    box-shadow: rgb(41, 39, 39)  0px 1px 7px;
+    border-radius: 1.5rem;
 }
 .box:hover {
     transition: all 0.2s ease-out;
     background:rgba(240, 202, 132, 0.555) ;
-    box-shadow: rgb(41, 39, 39)  0px 5px 12px, rgb(41, 39, 39) 0px 4px 4px;/*--------*/
+    box-shadow: rgb(41, 39, 39)  0px 5px 12px, rgb(41, 39, 39) 0px 4px 4px;
 }
 .box:nth-child(2n) .globarticle{
     display: flex;
     flex-direction: row-reverse;
-    background-color: transparent;/*--------------*/
+    background-color: transparent;
     border-radius: 5%;
 }
 .box:nth-child(2n-1) .globarticle{
     display: flex;
     flex-direction: row;
-    background-color: transparent;/*--------------*/
+    background-color: transparent;
     border-radius: 5%; 
 }
 .titreP{
     display: flex;
     font-size: 2rem;
-    /*color: rgb(216, 149, 25);/*-----------*/
-    color: rgb(86, 26, 94) ;/*--------*/
+    /*color: rgb(216, 149, 25);
+    color: rgb(86, 26, 94) ;
     justify-content: center;
     padding-top: 1%;   
 }
@@ -205,7 +189,7 @@ h2{
 }
 #ul_contact a:hover{
     transition: 0.2s;
-    color: white;/*-----------*/
+    color: white;
 }
 #logoFin{
     display: flex;
@@ -262,12 +246,8 @@ h2{
         order: 1;
     }
     #menu{
-        /*width: auto;*/
         border: transparent;
         width: auto;
-        /*margin-left: auto;
-        margin-right: auto;
-        border-radius: 1.5rem;*/
     }
     #menu a li{
         padding-left: 1rem;
