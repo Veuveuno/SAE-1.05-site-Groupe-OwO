@@ -218,11 +218,13 @@ h2{
         width: 10rem;
     }    
 }
+/*---------------------------------*/
 @media screen and (max-width:900px){
     body{
     font-size: 1rem;
     }
 }
+/*---------------------------------*/
 @media screen and (max-width:800px){
     body{
         font-size: 0.8rem;
