@@ -82,10 +82,7 @@ nav ul a{
     padding-bottom: 3px;
     padding-left: 0.3rem;
 }
-#menu a li:hover{
-    transition: 0.5s;
-    background-color: white;
-}
+
 #menu a:nth-child(2n) li{
     transition: 1s;
     background-color: rgba(241, 189, 83, 0.7);
@@ -101,6 +98,10 @@ nav ul a{
 #menu a:nth-child(1) li{
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+}
+#menu a li:hover{
+    transition: 0.5s;
+    background-color: white;
 }
 #contener{
     display: flex;
