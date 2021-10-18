@@ -53,10 +53,13 @@ Ce script embélit les éléments de "body" ayant l'attribut "id" ou "class" ain
 > * background-color : utilisé en tant que filtre sur image ou box
 
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| Localisation    |                               Couleurs                              |
+|--------------   |:-------------------------------------------------------------------:|
+| Header et Footer|  rgba(27, 27, 27, 0.432), rgb(250, 189, 75)                         |
+| Nav             |  rgba(241, 189, 83, 0.7), rgba(248, 212, 212, 0.7), white (:hover)  |
+| .contener       | rgba(218, 198, 221, 0.4)                                            |
+| .box            | rgba(218, 204, 240, 0.555), rgba(240, 202, 132, 0.555) (:hover)     |
+| title           | rgb(86, 26, 94)                                                     |
+| table           | rgba(86, 87, 102, 0.555)                                            |
   
 ### MERCI D'AVOIR LU NOTRE README.MD 😉
