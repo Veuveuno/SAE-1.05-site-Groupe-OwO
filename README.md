@@ -9,17 +9,17 @@ Bonjour et bienvenue sur le readme.md du site pour la SAE-1.05
 ## Fiche technique du site détaillée  
 
 ### Généralités :
->Les langages uttilisées :
+>Les langages utilisés :
 > 1. HTML
 > 1. CSS  
 > Le site utilise des images pour le background et le corps, il est donc important de garder le fichier "img"
->>Pour ces images et le fichier css, il utilise des chemins relatif. Il est donc capital de conserver la même configuration des dossiers et fichiers.  
+>>Pour ces images et le fichier css, il utilise des chemins relatifs. Il est donc capital de conserver la même configuration des dossiers et des fichiers.  
 > 
 ***
 ### Généralités sur le script HTML :  
   
-Le fichier **HTML** est rangé dans ./html/index.html. Il est doit rester a sa place pour garder les bons chemins relatifs.  
-Ce fichier constitut l'essentiel du site, c'est lui qui contient toutes les informations utiles pour l'évènnement. 
+Le fichier **HTML** est rangé dans ./html/index.html. Il est doit rester à sa place pour garder les bons chemins relatifs.  
+Ce fichier constitue l'essentiel du site, c'est lui qui contient toutes les informations utiles pour l'évènnement. 
   
 Ce script est séparé en plusieurs grands axes.  
   
@@ -49,8 +49,8 @@ Ce script embélit les éléments de "body" ayant l'attribut "id" ou "class" ain
 
 >### Fonds
 >
->Nous avons utiliser plusieurs propriété pour les fonds de notre site :
-> * background-image : nous avons inséré une image du théâtres silvain
+>Nous avons utilisé plusieurs propriétés pour les fonds de notre site :
+> * background-image : nous avons inséré une image du théâtre silvain
 > * background-color : utilisé en tant que filtre sur image ou box
 
 
