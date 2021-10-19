@@ -3,134 +3,288 @@ body{
     flex-direction: column;
     font-size: 1.2rem;
     background:black;
-    /*font-family:Georgia, 'Times New Roman', Times, serif;*/
-    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /*font-family: fantasy;*/
-}
-
-header{
-    /*background: linear-gradient(to bottom,rgb(199, 139, 28),55%,#C23028);*/
-    background: linear-gradient(to bottom,rgb(255, 175, 25),55%,#8871a7);/*-------------------------*/
-    border-bottom: ridge black;
-    padding:5px;/*-------------------------*/
-}
-#main{
-    display: flex;
-    flex-direction: row;
-    /*background-color: white;*/
-   /* background: rgb(76, 19, 16,0.71) ;*/ /*-------------------------*/
-    background: rgba(97, 43, 41, 0.411) ;
-}
-/*------------------------------------------------*/
-#tout
-{
-    background-image:url(../img/theatre.jpg);
-    background-attachment:fixed;
-    background-position: absolute;
-    background-position: center;
-    /*-webkit-filter: blur(4px);*/
-
-}
-/*------------------------------------------------*/
-
-
-#contener{
-    display: flex;
-    margin: 0 auto;
-    background: rgba(245, 216, 216, 0.424); 
-}
-#content{
-    display:flex;
-    flex-direction: column;
-}
-nav{
-    margin-left: 10px;
-    color: black;/*--------------*/
-    border-radius: 5% ;
-    background-color: rgb(245, 216, 216,0.5);/*--------------*/
-    margin: 5px;
-    padding-right: 5px;
-}
-.box:nth-child(2n) .globarticle{
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: red;
-    background-color: transparent;/*--------------*/
-    border-radius: 5%;
-}
-.box:nth-child(2n-1) .globarticle{
-    display: flex;
-    flex-direction: row;
-    background-color: transparent;/*--------------*/
-    border-radius: 5%;
-    
-}
-.box .globarticle article{
-    flex-grow: 1;
 }
 img{
-    background: rgb(255, 175, 25,0.75);/*--------------*/
     border-radius: 5%;
     margin: 0.5%;
     max-width: 100%;
     width: 15em;
     height: 10em;
 }
-footer{
-    /*background-color: yellow;*/
-    background: linear-gradient(to top,rgb(255, 175, 25),55%,#8871a7);/*--------------*/
-
+a:link{
+    transition: all 0.2s;
+    color:black;
 }
-.titreP{
+a:hover{
+    color: black;
+}
+a:visited{
+    transition: all 0.2s;
+    color: black;
+}
+#tout{
+    background-image:url(../img/theatre.jpg);
+    background-attachment:fixed;
+    background-position: 0;
+    background-size: cover;
+}
+header{
+    padding:5px;
+    background: rgba(27, 27, 27, 0.432);
     display: flex;
-    font-size: 2rem;
-    color: rgb(255, 175, 25);/*--------------*/
-    justify-content: center;
-    /*--------------*/
-    padding-top: 1%;
-    
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(250, 189, 75);
 }
-.corpP{
-    text-align: justify;
+header img{
+    width: auto;
+    height: 3rem;
+    margin: auto;
+}
+header #img_1{
+    margin-left: 1rem;
+}
+header #img_2{
+    margin-right: 1rem;
+}
+header h1{
+    padding-top: 0;
+    font-size: 2rem;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    background: rgba(218, 198, 221, 0.35);
+}
+#main img{
+    flex-basis: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+nav ul{
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+}
+#menu{
+    padding-left: 0;
+    width: 13rem;
+    margin: 0.5rem;
+    margin-top: 3rem;
+    color: black;
+    border: ridge black;
+    border-radius: 10%;
+}
+#menu li{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 0.3rem;
+}
+#menu a:nth-child(2n) li{
+    transition: 1s;
+    background-color: rgba(241, 189, 83, 0.7);
+}
+#menu a:nth-child(2n-1) li{
+    transition: 1s;
+    background-color: rgba(248, 212, 212, 0.7);
+}
+#menu a:nth-last-child(1) li{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+#menu a:nth-child(1) li{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+#menu a li:hover{
+    transition: 0.5s;
+    background-color: white;
+}
+#contener{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background: rgba(218, 198, 221, 0.4);
+    border-radius: 2rem;
+}
+#content{
+    display:flex;
+    flex-direction: column;
 }
 .box {
     transition:1s;
     display: flex;
     flex-direction: column;
-    background-color:indianred;
-    /*background-color:white;*/   
-    border: ridge black; 
+    background-color: rgba(218, 204, 240, 0.555);
     padding: 1rem;
     padding-top: 0rem;
     margin: 2rem;
+    box-shadow: rgb(41, 39, 39)  0px 1px 7px;
     border-radius: 1.5rem;
 }
-/*---------------------------------*/
-.box:hover{
+.box:hover {
     transition: all 0.2s ease-out;
-    background:rgba(255, 174, 25, 0.342) ;
+    background:rgba(240, 202, 132, 0.555) ;
+    box-shadow: rgb(41, 39, 39)  0px 5px 12px, rgb(41, 39, 39) 0px 4px 4px;
+}
+.box:nth-child(2n) .globarticle{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: transparent;
+    border-radius: 5%;
+}
+.box:nth-child(2n-1) .globarticle{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    border-radius: 5%; 
+}
+.titreP{
+    display: flex;
+    font-size: 2rem;
+    color: rgb(86, 26, 94) ;
+    justify-content: center;
+    padding-top: 1%;   
+}
+.box .globarticle article{
+    flex-grow: 1;
+}
+.corpP{
+    text-align: justify;
+}
+table {
+    table-layout: fixed;
+    width: 90%;
+    margin-left: 10%;
+    border-collapse: collapse;
+    background-color: rgba(86, 87, 102, 0.555);
+    border-bottom: ridge black;
+}
+td {
+    padding: 20px;
+    border-top: ridge black;
+    border-bottom: ridge black;
+}
+footer{
+    background: linear-gradient(to bottom,rgb(250, 189, 75),70%,#f3e1e1ee);    
+}
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#ul_contact{
+    list-style: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+#ul_contact a{
+    text-decoration: none;
+}
+#ul_contact a:hover{
+    transition: 0.2s;
+    color: white;
+}
+#logoFin{
+    display: flex;
+    justify-content:right;
+    margin-right: 7rem;
+}
+#logoFin img{
+    width: 15rem;
+    height: auto;
+}
+#mentionsLégales a{
+    margin-left: 1rem;
+    font-size: 0.8rem;
+}
+#sources{
+    margin-left: 1rem;
+    color: gray;
+    font-size: 0.8rem;
+}
+.sources{
+    margin-left: 1rem;
 }
 /*---------------------------------*/
-a{
-    color:black
+@media screen and (max-width:1000px){
+    #menu{
+        font-size: 1rem;
+        width: 10rem;
+    }    
 }
-
-@media screen and (max-width:750px){
+/*---------------------------------*/
+@media screen and (max-width:900px){
+    body{
+    font-size: 1rem;
+    }
+}
+/*---------------------------------*/
+@media screen and (max-width:800px){
+    body{
+        font-size: 0.8rem;
+    }
+    header{
+        flex-direction: column;
+    }
+    header #img_2{
+        order:-1;
+        margin-left: 1rem;
+        margin-right: auto;
+        margin-bottom: 1rem;
+    }
     #main{
         display: flex;
         flex-direction: column;
-        background-color: pink;
-    }   
+    }
+    #main img{
+        display: flex;
+        order: 1;
+    }
+    #menu{
+        border: transparent;
+        width: auto;
+    }
+    #menu a li{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #menu a:nth-child(1) li{
+        border-top-left-radius: 5rem;
+        border-top-right-radius: 5rem;
+    }
+    .box{
+         margin: 0.5rem;
+    }
+    .globarticle{
+        align-items : center;
+    }
+    .box:nth-child(2n) .globarticle{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .box:nth-child(2n-1) .globarticle{
+        display: flex;
+        flex-direction: column;
+    }
+    .titreP{
+        font-size: 1.6rem;
+    }
+    #sources{
+        font-size: 0.6rem;
+    }
+    td{
+        padding:5px;
+    }
+    #logoFin{
+        justify-content: center;
+        width: 30%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
-/*---------------------------------*/
-a:hover{
-    transition: all 0.2s ease-out;
-    color:rgb(255, 175, 25) ;
-}
-
-a:visited{
-    /*color: purple;*/
-    color:#C23028;
-}
-/*---------------------------------*/
